@@ -4,10 +4,10 @@
     "slug": "ruby",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ruby.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ruby.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
