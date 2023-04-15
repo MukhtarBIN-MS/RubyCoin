@@ -10,6 +10,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function SideMenu({ toggleMenu , navigation }) {
+  let inviteCode = '445GCDJJ2';
   return (
     <SafeAreaView style={styles.sideMenu}>
       <TouchableOpacity style={styles.closeButton} onPress={toggleMenu}>
@@ -22,7 +23,7 @@ export default function SideMenu({ toggleMenu , navigation }) {
         />
         <View>
           <Text style={styles.username}>Username</Text>
-          <Text style={styles.inviteCode}>Invite Code: XXXXXX</Text>
+          <Text style={styles.inviteCode}>Invite Code: {inviteCode}</Text>
         </View>
       </View>
       <TouchableOpacity onPress={()=> navigation.navigate('Refferal Program')}  style={styles.menuItem}>
